@@ -1,0 +1,12 @@
+from fastapi import FastAPI
+
+from backend.api.v1.routers import api_router
+
+app = FastAPI()
+
+
+app.include_router(api_router)
+
+
+
+
