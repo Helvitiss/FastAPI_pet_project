@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from backend.schemas.order import OrderResponse
+from backend.app.schemas.order import OrderResponse
 
 router = APIRouter(prefix="/orders", tags=["orders"])
 

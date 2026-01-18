@@ -1,7 +1,7 @@
-from sqlalchemy import Integer, String, Boolean, Float
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+from sqlalchemy import Integer, String, Boolean
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from backend.core.database import Base
+from backend.app.core.database import Base
 
 
 
